@@ -12,8 +12,9 @@ public class Main {
 
    // ALL objects can be creayed using this pattern:
    //ClassName objectName = new ClassName();
-   BuildABear Nurse = new BuildABear("bear");
-
+   BuildABear Bear = new BuildABear();
+// "BuildABear bear" is declaring a variable of type BuildABear
+// "new BuildABear()" is calling a CONSTRUCTOR to set up the object 
 
    }
 }
