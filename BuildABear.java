@@ -42,5 +42,26 @@
 
 }
     // 3. METHIDS (behaviors/actions)
+
+    // ACCESSORS("getters") return the value of an instance var
+
+   public String getType() {
+      return type;
+
+   } 
+
+   public String getName(){
+      return name;
+   }
+
+public int getFillLevel() {
+   return fillLevel;
+
+}
+
+public double getPrice() {
+   return price;
+}
+
     }
     
