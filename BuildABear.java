@@ -63,5 +63,17 @@ public double getPrice() {
    return price;
 }
 
-    }
     
+    
+    // write a toString() method so that we can print an objects STATE 
+    //  including this method changes what happens when you print an object 
+    // otherwise doing system.out.println(object) just shows a memory location 
+
+    public String toString() {
+
+      String state = "BuildABear[" + type + "," + name + "," + fillLevel + "," + price + ")";
+return state;
+
+    }
+
+   } // end class
