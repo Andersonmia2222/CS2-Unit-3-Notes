@@ -76,4 +76,19 @@ return state;
 
     }
 
+// mutators("setters") are void, but accept an agrument to change
+// the value of an objects instance variable to something new
+
+// only need setters for variables you want the user to change
+
+
+public void setName(String newName) {
+   //assign the object's name to the new value
+   
+this.name = newName;
+}
+public void setFillLevel(int newFL) {
+this.fillLevel = newFL;
+}
+
    } // end class
